@@ -3,14 +3,17 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-/*Lab02*/
+/*Lab03*/
 int main(int argc, char *argv[]) {
-	int x=3;
-	int cond1, cond2;
+	int a, b;
 	
-	cond1 = 2<x && x<5 ;
-	cond2 = x>1 || x<4 && x>3;
+	printf("input the two integer : ");
+	scanf("%d %d", &a, &b);
 	
-	printf("cond1=%d, cond2=%d", cond1, cond2);
+	printf("+ result is %d\n", a+b);
+	printf("- result is %d\n", a-b);
+	printf("* result is %d\n", a*b);
+	printf("/ result is %d\n", a/b);
+	printf("%% result is %d\n", a%b);
 	return 0;
 }
